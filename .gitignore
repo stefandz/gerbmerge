@@ -6,3 +6,6 @@ gerbmerge-*.*/
 MANIFEST
 
 /nbproject/private/
+
+installed_files
+misc/

@@ -60,7 +60,7 @@ else:
   fid = file('misc/gerbmerge', 'wt')
   fid.write( \
   r"""#!/bin/sh
-python %s/gerbmerge/gerbmerge.py $*
+python2.7 %s/gerbmerge/gerbmerge.py $*
   """ % DestLib)
   fid.close()
 
